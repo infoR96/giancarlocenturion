@@ -1,0 +1,23 @@
+.work{
+        background-image:url('../Fotos/pp.jpg');
+        opacity: 0.9;
+        min-height: 94vh;
+        margin-top: 63px;
+}
+.format{
+    background-color: rgba(165, 70, 70, 0.2);
+    border-radius: 8%;
+    padding: 15px;
+    color: white;
+  }
+
+.imgs{
+        height: auto;
+        max-width: 90%;
+        border-radius: 20px;
+        margin-left: 22px;
+        
+}
+.icon{
+        width: 40px;
+}
