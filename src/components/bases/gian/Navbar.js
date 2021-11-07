@@ -55,9 +55,9 @@ export const Navbar = ({mostrar}) =>{
                 
                     <div className={classes.list} >
                     <Link className='curri' to="/work"><Button  variant= "contained" className={`${classes.boton} curri ` } startIcon={<WorkIcon/>}>  Work</Button></Link> 
-                    <Link className='curri' to="/blog"><Button  variant= "contained" className={`${classes.boton} curri ` } startIcon={<WorkIcon/>}>Blog</Button></Link> 
+                    <Link className='curri' to="/blog"><Button  variant= "contained" className={`${classes.boton} curri ` } startIcon={<BookIcon/>}>Blog</Button></Link> 
                     <Link className='curri' to="/"><Button variant = "contained" className={classes.boton} startIcon={<InfoIcon/>}> About</Button></Link> 
-                    <Button variant = "contained" className={classes.boton} startIcon={<ContactMailIcon/>}> Contact </Button>
+                    <Link className='curri' to="/contact"><Button  variant= "contained" className={`${classes.boton} curri ` } startIcon={<ContactMailIcon/>}>Contact</Button></Link> 
                     </div>
                 </Toolbar>
             </AppBar>

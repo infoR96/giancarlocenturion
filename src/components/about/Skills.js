@@ -16,7 +16,7 @@ export const Skills = () => {
     }
 
     useEffect(() => {
-  setTimeout(change, 10000);
+  setTimeout(change, 8000);
 })
 
     return (

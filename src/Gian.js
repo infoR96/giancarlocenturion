@@ -15,6 +15,7 @@ import {
 } from "react-router-dom"
 import {Work} from './components/work/Work';
 import { Blog } from './components/Blog/Blog.js';
+import { Contact } from './components/Contact/Contact';
 export const Gian = () => {
   const [abrir, setAbrir] = useState(false)
 
@@ -45,6 +46,11 @@ export const Gian = () => {
         <Route path="/blog"  >
           <Blog/> 
         </Route>
+
+        <Route path="/contact"  >
+          <Contact/> 
+        </Route>
+        
         < Redirect to='/'/>
         </Switch>
       </ThemeProvider>

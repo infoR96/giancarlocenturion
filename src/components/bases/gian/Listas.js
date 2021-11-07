@@ -29,17 +29,18 @@ export const Listas = ({mostrar}) => {
     const classes = estilos();
     return (
         <div>
-                <ListItem button className={classes.boton} >
-                <Link onClick={mostrar}  className ='curri' to="/work"><Button  className ='curri' startIcon={<WorkIcon/>} >Work </Button></Link>
+                <ListItem  button   className={classes.boton} >
+                <Link  onClick={mostrar} className ='curri2' to="/work"><Button  className ='curri' startIcon={<WorkIcon/>} >Work </Button></Link>
                 </ListItem>
                 <ListItem button className={classes.boton}>
-                <Button  startIcon={<BookIcon />} > Blog </Button>
+                <Link  onClick={mostrar} className ='curri2' to="/blog"><Button  className ='curri' startIcon={<BookIcon/>} >Blog </Button></Link>
+
                 </ListItem>
                 <ListItem button className={classes.boton}>
-                <Link   className ='curri' onClick={mostrar} to="/"><Button   startIcon={<InfoIcon />} > About </Button> </Link> 
+                <Link   className ='curri2' onClick={mostrar} to="/"><Button className ='curri'  startIcon={<InfoIcon />} > About </Button> </Link> 
                 </ListItem>
                 <ListItem  button className={classes.boton}>
-                <Button  startIcon={<ContactMailIcon />}> Contact </Button>
+                <Link  onClick={mostrar} className ='curri2' to="/contact"><Button  className ='curri' startIcon={<ContactMailIcon/>} >Contact</Button></Link>
                 </ListItem>
         
         </div>

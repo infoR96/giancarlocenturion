@@ -2,7 +2,10 @@ import React from 'react'
 import GetAppIcon from '@material-ui/icons/GetApp';
 import { Button } from '@material-ui/core';
 
+
 export const Present = () => {
+
+
     return (
         <div className='present col-lg-7 text-white mx-2 my-3'>
 
@@ -25,7 +28,7 @@ export const Present = () => {
                 startIcon={<GetAppIcon />}
             // href=''>
             >
-                <a color ='secondary' className='curri' href="/img/texto.txt" download="CENTURION CAMACHO GIANCARLO RAMON">
+                <a color ='secondary' href='download' className='curri'>
                     currículum
                 </a>
             </Button>
